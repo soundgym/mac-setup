@@ -1,0 +1,21 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# common
+brew "yarn"
+brew "nvm"
+brew "awscli"
+brew "ruby"
+brew "git"
+
+# backend
+brew "redis"
+brew "gradle"
+
+# utilities
+cask "docker"
+cask "google-chrome"
+cask "figma"
+cask "notion"
+cask "slack"
